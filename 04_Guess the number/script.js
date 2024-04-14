@@ -1,4 +1,4 @@
-let randomNumber = console.log(parseInt(Math.random() * 100 + 1));
+let randomNumber = parseInt(Math.random() * 100 + 1); // never declare console in the variable initialization
 
 const submit = document.querySelector('#subt')
 const userInput = document.querySelector('#guessField')
